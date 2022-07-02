@@ -8,6 +8,7 @@
 
 body {
   background-color: #ffffff;
+  margin: 0 auto;
 }
 
 .table {
@@ -21,19 +22,18 @@ body {
 table {
   border: 1px solid #dddddd;
   border-collapse: collapse;
-  width: 80vw;
-  /* overflow: hidden; */
+  width: 70vw;
 }
 
 .box-title {
   padding: 1rem;
   background-color: #4caf50;
   color: #fff;
-  width: 80vw;
+  width: 70vw;
 }
 .box-title .title {
-  text-align: center;
   font-size: 1.4rem;
+  text-align: center;
   font-weight: bold;
   letter-spacing: 0.2rem;
 }
@@ -41,7 +41,7 @@ table {
 td,
 th {
   border-bottom: 1px solid #dddddd;
-  padding: 0.5rem;
+  padding: 0.4rem;
 }
 
 .table-head {
@@ -57,7 +57,7 @@ th {
   font-weight: bold;
   text-align: center;
   padding: 0 10px;
-  width: 3rem;
+  width: 2rem;
 }
 
 .name-club {
@@ -78,10 +78,10 @@ th {
   color: #666666;
   font-weight: none;
   /* revisar */
-  min-width: 3rem;
+  min-width: 1rem;
 }
 
-/* linha */
+/* colums */
 .classification:nth-child(odd) {
   background: #f7f7f7;
 }
@@ -93,7 +93,6 @@ tr:nth-child(17) {
 }
 
 /* numbers */
-
 .liberators {
   color: #003366;
 }
@@ -149,13 +148,12 @@ tr:nth-child(17) {
   border-radius: 2px;
 }
 
-.list-liberators {
-}
-
 .legend {
   padding: 10px 0 0 12px;
 }
-.the-legend-desc .desc {
+
+.the-legend-desc,
+.desc {
   text-align: left;
   color: #555555;
   font-size: 10px;
